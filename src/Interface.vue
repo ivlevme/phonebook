@@ -20,7 +20,7 @@ export default {
       otv: "",
       tel: "",
       book: [],
-      index: 1,
+      // index: 1,
       textButtonStatus: false,
       favourite: false
     };
@@ -33,7 +33,7 @@ export default {
         surname: this.surname,
         otv: this.otv,
         tel: this.tel,
-        index: this.index++,
+        // index: this.index++,
         favourite: this.favourite
       });
       this.$emit('addToPhoneBook', this.book)
