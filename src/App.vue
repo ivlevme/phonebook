@@ -26,7 +26,7 @@ export default {
   methods: {
     addToPhoneBook: function (event) {
       this.book = event;
-      console.log(this.book)
+      // console.log(this.book)
     },
     deleteItem: function (event) {
       this.book.splice(event,1)
