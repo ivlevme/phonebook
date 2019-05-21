@@ -7,7 +7,6 @@
         <button id="test" @click="addToPhoneBook">Добавить в телефонную книгу</button>
         <button @click="sortToSurname">Сортировать по фамилии</button>
         <button @click="sortToName">Сортировать по имени</button>
-        <!-- <button @click="flag = !flag">Скрыть\Показать избранные контакты {{flag}}</button> -->
     </div>
 </template>
 
